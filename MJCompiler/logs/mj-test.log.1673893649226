@@ -1,0 +1,27 @@
+INFO  19:27:21,552 - Compiling source file: C:\Users\Marko Brkic\Desktop\faks7semestar\pp1\projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  19:27:21,589 - #14 program
+INFO  19:27:21,589 - #47 syntax_errors
+INFO  19:27:21,589 - #47 int
+INFO  19:27:21,590 - #47 a
+INFO  19:27:21,590 - #3 +
+ERROR 19:27:21,590 - 
+Sintaksna greska na liniji 3
+INFO  19:27:21,590 - #8 ;
+INFO  19:27:21,590 - #47 int
+INFO  19:27:21,591 - #47 a
+INFO  19:27:21,591 - #3 +
+ERROR 19:27:21,591 - Izvrsen oporavak do ; za var deklaraciju u liniji 3
+ERROR 19:27:21,591 - 
+Sintaksna greska na liniji 4
+INFO  19:27:21,592 - #13 ,
+INFO  19:27:21,592 - #47 b
+INFO  19:27:21,592 - #8 ;
+INFO  19:27:21,592 - #18 class
+ERROR 19:27:21,592 - Izvrsen oporavak do , za var deklaraciju u liniji 4
+INFO  19:27:21,592 - #47 A
+INFO  19:27:21,592 - #19 extends
+INFO  19:27:21,593 - #47 B
+INFO  19:27:21,593 - #3 +
+ERROR 19:27:21,593 - 
+Sintaksna greska na liniji 6
+ERROR 19:27:21,593 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 6

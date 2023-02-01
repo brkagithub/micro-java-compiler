@@ -1,0 +1,49 @@
+//Test 302
+
+
+
+program test302
+
+int arr[];
+int arr2[];
+int curr;
+int curr1;
+int a;
+int b;
+
+{
+	void main()
+	int arr[];
+	int arr2[];
+	int curr;
+	int curr1;
+	{
+		arr = new int[3];
+		arr[0] = 1;
+		arr[1] = 2;
+		arr[2] = 3;	
+		arr2 = new int[3];
+		arr2[0] = 4;
+		arr2[1] = 5;
+		arr2[2] = 6;	
+		//arr.foreach(curr => print(curr););
+		arr.foreach(curr => {
+			print(curr);
+			arr2.foreach(curr1 => {
+				print(curr1);
+				break;
+			});
+			continue;
+			print(curr);
+		});
+		
+		a=5;
+		b=3;
+		b = b*4;
+		
+		a = a*b/4 + 45 + 18/2;
+		
+		print(a);	
+	}
+}
+

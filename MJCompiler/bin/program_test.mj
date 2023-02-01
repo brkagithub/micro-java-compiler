@@ -1,0 +1,131 @@
+program p
+const int size = 3, size2 = 20, size3 = 30, size4 = 50;
+const char size5 = 'd';
+const int size1 = 20;
+const bool a = false;
+int krak, hipotenuza, kateta, obim, x;
+int katete[];
+char character1;
+bool bbb;
+
+class A {
+	int b;
+	
+	{
+		int getB(){
+			return b;
+		}
+	}
+}
+
+A t;
+
+class Table {
+	int pos[], neg[], factor;
+	{
+		 void putp (int a, int idx) { pos[idx] = a; 
+		 t.getB(); }
+		
+		 void putn (int a, int idx[]) { putp(a, idx[0]); neg[idx[0]] = a; }
+		 
+		 bool getp (int idx) {
+		 	if(a && true && false && false || true) {
+			  	 putn(5,katete); 
+			 	 putn(5, katete); 
+			 	 pos.foreach(x => print(x, 5););
+		 	     return true;
+ 	        } 
+         }
+		 
+		 int getn (int idx) { 
+		 	pos = new int[3]; 
+		 	[krak, krak, , ] = pos;
+		 	return 5;
+		 }
+	}
+}
+
+{
+	void f(int arg, bool jeste) int b; int size1;
+	{
+		krak=arg;
+		
+		//print(characters);
+		while(true){
+			while(true){
+				break;
+			}
+			break;
+		}
+		return;
+	}
+	
+	void g(int el){
+		print(el, 5);
+	}
+}
+
+
+//
+//	Table val;
+//	Int rows, columns;
+//
+//	{
+//		void f(char ch, int ab, int arg, int a)
+//		int x;
+//		{
+//			x = arg;
+//		}
+//			
+//		void main() int x, i; char c; int arr[];
+//		{
+//			arr = new int[3];
+//			i = (0);
+//			while (i<3) {
+//			arr[i] = i;
+//			i++;
+//		}
+//		
+//		arr.foreach(x => print(x););
+//		
+//		val.pos = new int [size];
+//		
+//		val.neg = new int [size];
+//		
+//		read(x);
+//		
+//		[i,,x] = arr;
+//		
+//		while (i<size) {
+//			val.putp(0, i);
+//			 val.putn(0, i);
+//			 i++;
+//			 Table(a, b, c);
+//		}
+//		
+//		f(c, x, i);
+//		
+//		read(rows);
+//		
+//		x = rows;
+//		
+//		while (true) {
+//			 if(x <= 0) break;
+//			 if (0 <= x || x < size)
+//			 {
+//				 val.putp(val.getp(x)+1, a);
+//				 continue;
+//			 }
+//			 else if (-size < x && x<0)
+//			 {
+//				 {
+//					 val.putn(val.getn(-x)+1);
+//					 x = false;
+//					 print(x, 3);
+//					 continue;
+//				 }
+//			 }
+//			 read(x);
+//		}
+//	}
+//	}

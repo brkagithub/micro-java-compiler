@@ -1,0 +1,257 @@
+INFO  19:27:29,229 - Compiling source file: C:\Users\Marko Brkic\Desktop\faks7semestar\pp1\projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  19:27:29,267 - #14 program
+INFO  19:27:29,267 - #47 syntax_errors
+INFO  19:27:29,267 - #47 int
+INFO  19:27:29,267 - #47 a
+INFO  19:27:29,268 - #3 +
+ERROR 19:27:29,268 - 
+Sintaksna greska na liniji 3
+INFO  19:27:29,268 - #8 ;
+INFO  19:27:29,268 - #47 int
+INFO  19:27:29,268 - #47 a
+INFO  19:27:29,268 - #3 +
+ERROR 19:27:29,269 - Izvrsen oporavak do ; za var deklaraciju u liniji 3
+ERROR 19:27:29,269 - 
+Sintaksna greska na liniji 4
+INFO  19:27:29,269 - #13 ,
+INFO  19:27:29,269 - #47 b
+INFO  19:27:29,269 - #8 ;
+INFO  19:27:29,269 - #12 {
+ERROR 19:27:29,269 - Izvrsen oporavak do , za var deklaraciju u liniji 4
+INFO  19:27:29,270 - #16 void
+INFO  19:27:29,271 - #47 a
+INFO  19:27:29,271 - #11 (
+INFO  19:27:29,271 - #47 int
+INFO  19:27:29,271 - #47 a
+INFO  19:27:29,271 - #3 +
+ERROR 19:27:29,271 - 
+Sintaksna greska na liniji 8
+INFO  19:27:29,271 - #13 ,
+INFO  19:27:29,271 - #47 int
+INFO  19:27:29,271 - #47 b
+INFO  19:27:29,271 - #6 )
+ERROR 19:27:29,271 - Izvrsen oporavak do , za formalne parametre u liniji 8
+INFO  19:27:29,272 - #12 {
+INFO  19:27:29,272 - #5 }
+INFO  19:27:29,272 - #16 void
+INFO  19:27:29,273 - #47 main
+INFO  19:27:29,273 - #11 (
+INFO  19:27:29,273 - #6 )
+INFO  19:27:29,273 - #12 {
+INFO  19:27:29,273 - #47 b
+INFO  19:27:29,273 - #7 =
+INFO  19:27:29,273 - #46 43
+INFO  19:27:29,274 - #3 +
+INFO  19:27:29,274 - #46 123
+INFO  19:27:29,274 - #3 +
+INFO  19:27:29,275 - #8 ;
+ERROR 19:27:29,275 - 
+Sintaksna greska na liniji 10
+INFO  19:27:29,275 - #47 b
+INFO  19:27:29,275 - #7 =
+INFO  19:27:29,275 - #46 123
+ERROR 19:27:29,275 - Izvrsen oporavak do ; za dodelu vrednosti u liniji 10
+INFO  19:27:29,276 - #8 ;
+INFO  19:27:29,276 - #47 b
+INFO  19:27:29,276 - #7 =
+INFO  19:27:29,276 - #46 43
+INFO  19:27:29,276 - #3 +
+INFO  19:27:29,276 - #46 123
+INFO  19:27:29,276 - #3 +
+INFO  19:27:29,276 - #8 ;
+ERROR 19:27:29,276 - 
+Sintaksna greska na liniji 12
+INFO  19:27:29,276 - #10 if
+INFO  19:27:29,276 - #11 (
+INFO  19:27:29,276 - #47 a
+ERROR 19:27:29,277 - Izvrsen oporavak do ; za dodelu vrednosti u liniji 12
+INFO  19:27:29,277 - #3 +
+INFO  19:27:29,277 - #40 >
+ERROR 19:27:29,277 - 
+Sintaksna greska na liniji 13
+INFO  19:27:29,277 - #47 b
+INFO  19:27:29,277 - #6 )
+INFO  19:27:29,277 - #12 {
+INFO  19:27:29,277 - #47 b
+INFO  19:27:29,277 - #7 =
+ERROR 19:27:29,277 - Izvrsen oporavak do ) za if ili while u liniji 13
+INFO  19:27:29,278 - #46 43
+INFO  19:27:29,278 - #3 +
+INFO  19:27:29,278 - #46 123
+INFO  19:27:29,278 - #3 +
+INFO  19:27:29,278 - #8 ;
+ERROR 19:27:29,278 - 
+Sintaksna greska na liniji 14
+INFO  19:27:29,278 - #5 }
+INFO  19:27:29,278 - #5 }
+INFO  19:27:29,278 - #5 }
+ERROR 19:27:29,278 - Izvrsen oporavak do ; za dodelu vrednosti u liniji 14
+INFO  19:27:29,282 - Program(
+  ProgName(
+   syntax_errors
+  ) [ProgName]
+  VarList(
+    VarList(
+      NoList(
+      ) [NoList]
+      GlobalVarDeclListDerived1(
+        Type(
+         int
+        ) [Type]
+        SingleVarGlobalDeclaration(
+          GlobalVarDeclSemiError(
+          ) [GlobalVarDeclSemiError]
+        ) [SingleVarGlobalDeclaration]
+      ) [GlobalVarDeclListDerived1]
+    ) [VarList]
+    GlobalVarDeclListDerived1(
+      Type(
+       int
+      ) [Type]
+      MultipleGlobalVarDeclarations(
+        GlobalVarDeclCommaError(
+        ) [GlobalVarDeclCommaError]
+        SingleVarGlobalDeclaration(
+          GlobalVarDeclSemi(
+            VarDecl(
+             b
+            ) [VarDecl]
+          ) [GlobalVarDeclSemi]
+        ) [SingleVarGlobalDeclaration]
+      ) [MultipleGlobalVarDeclarations]
+    ) [GlobalVarDeclListDerived1]
+  ) [VarList]
+  MethodDeclarationList(
+    MethodDeclarationList(
+      NoMethodDeclList(
+      ) [NoMethodDeclList]
+      MethodVoidDecl(
+        VoidTypeName(
+         a
+        ) [VoidTypeName]
+        FormPars(
+          MultipleFormalPars(
+            FormalParamCommaError(
+            ) [FormalParamCommaError]
+            SingleFormalPar(
+              FParamDecl(
+                Type(
+                 int
+                ) [Type]
+               b
+              ) [FParamDecl]
+            ) [SingleFormalPar]
+          ) [MultipleFormalPars]
+        ) [FormPars]
+        NoVarDeclLists(
+        ) [NoVarDeclLists]
+        NoStatements(
+        ) [NoStatements]
+      ) [MethodVoidDecl]
+    ) [MethodDeclarationList]
+    MethodVoidDecl(
+      VoidTypeName(
+       main
+      ) [VoidTypeName]
+      NoFormPars(
+      ) [NoFormPars]
+      NoVarDeclLists(
+      ) [NoVarDeclLists]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              NoStatements(
+              ) [NoStatements]
+              MatchedStatement(
+                DesignatorSt(
+                  DesignatorAssign(
+                    DesignatorIdent(
+                     b
+                    ) [DesignatorIdent]
+                    AssignopDerived1(
+                    ) [AssignopDerived1]
+                    DesignatorAssignError(
+                    ) [DesignatorAssignError]
+                  ) [DesignatorAssign]
+                ) [DesignatorSt]
+              ) [MatchedStatement]
+            ) [Statements]
+            MatchedStatement(
+              DesignatorSt(
+                DesignatorAssign(
+                  DesignatorIdent(
+                   b
+                  ) [DesignatorIdent]
+                  AssignopDerived1(
+                  ) [AssignopDerived1]
+                  DesignatorExprAndSemi(
+                    ExprPlus(
+                      TermListSingle(
+                        TermSingle(
+                          FactorNum(
+                           123
+                          ) [FactorNum]
+                        ) [TermSingle]
+                      ) [TermListSingle]
+                    ) [ExprPlus]
+                  ) [DesignatorExprAndSemi]
+                ) [DesignatorAssign]
+              ) [DesignatorSt]
+            ) [MatchedStatement]
+          ) [Statements]
+          MatchedStatement(
+            DesignatorSt(
+              DesignatorAssign(
+                DesignatorIdent(
+                 b
+                ) [DesignatorIdent]
+                AssignopDerived1(
+                ) [AssignopDerived1]
+                DesignatorAssignError(
+                ) [DesignatorAssignError]
+              ) [DesignatorAssign]
+            ) [DesignatorSt]
+          ) [MatchedStatement]
+        ) [Statements]
+        UnmatchedStatement(
+          IfUnmatched(
+            IfHelper(
+            ) [IfHelper]
+            ConditionIfParenError(
+            ) [ConditionIfParenError]
+            MatchedStatement(
+              StatementListBraces(
+                Statements(
+                  NoStatements(
+                  ) [NoStatements]
+                  MatchedStatement(
+                    DesignatorSt(
+                      DesignatorAssign(
+                        DesignatorIdent(
+                         b
+                        ) [DesignatorIdent]
+                        AssignopDerived1(
+                        ) [AssignopDerived1]
+                        DesignatorAssignError(
+                        ) [DesignatorAssignError]
+                      ) [DesignatorAssign]
+                    ) [DesignatorSt]
+                  ) [MatchedStatement]
+                ) [Statements]
+              ) [StatementListBraces]
+            ) [MatchedStatement]
+          ) [IfUnmatched]
+        ) [UnmatchedStatement]
+      ) [Statements]
+    ) [MethodVoidDecl]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  19:27:29,282 - ===================================
+INFO  19:27:29,284 - Detektovan tip int na liniji 3
+INFO  19:27:29,284 - Detektovan tip int na liniji 4
+INFO  19:27:29,284 - Detektovan tip int na liniji 8
+ERROR 19:27:29,284 - Greska: u izrazu Designator = Expr Designator i Expr moraju biti kompatibilnih tipova  na liniji 10
+ERROR 19:27:29,284 - Greska: u izrazu Designator = Expr Designator i Expr moraju biti kompatibilnih tipova  na liniji 12
+ERROR 19:27:29,284 - Greska: u izrazu Designator = Expr Designator i Expr moraju biti kompatibilnih tipova  na liniji 14
+ERROR 19:27:29,285 - Parsiranje NIJE uspesno zavrseno!

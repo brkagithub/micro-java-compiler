@@ -1,0 +1,285 @@
+INFO  19:23:27,294 - Compiling source file: C:\Users\Marko Brkic\Desktop\faks7semestar\pp1\projekat\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  19:23:27,331 - #14 program
+INFO  19:23:27,331 - #47 syntax_errors
+INFO  19:23:27,331 - #47 int
+INFO  19:23:27,332 - #47 a
+INFO  19:23:27,332 - #3 +
+ERROR 19:23:27,332 - 
+Sintaksna greska na liniji 3
+INFO  19:23:27,332 - #8 ;
+INFO  19:23:27,332 - #47 int
+INFO  19:23:27,332 - #47 a
+INFO  19:23:27,333 - #3 +
+ERROR 19:23:27,333 - Izvrsen oporavak do ; za var deklaraciju u liniji 3
+ERROR 19:23:27,333 - 
+Sintaksna greska na liniji 4
+INFO  19:23:27,333 - #13 ,
+INFO  19:23:27,333 - #47 b
+INFO  19:23:27,333 - #8 ;
+INFO  19:23:27,334 - #12 {
+ERROR 19:23:27,334 - Izvrsen oporavak do , za var deklaraciju u liniji 4
+INFO  19:23:27,335 - #16 void
+INFO  19:23:27,335 - #47 a
+INFO  19:23:27,335 - #11 (
+INFO  19:23:27,335 - #47 int
+INFO  19:23:27,335 - #47 a
+INFO  19:23:27,335 - #3 +
+ERROR 19:23:27,336 - 
+Sintaksna greska na liniji 7
+INFO  19:23:27,336 - #13 ,
+INFO  19:23:27,336 - #47 int
+INFO  19:23:27,336 - #47 b
+INFO  19:23:27,336 - #6 )
+ERROR 19:23:27,336 - Izvrsen oporavak do , za formalne parametre u liniji 7
+INFO  19:23:27,336 - #12 {
+INFO  19:23:27,337 - #5 }
+INFO  19:23:27,337 - #16 void
+INFO  19:23:27,337 - #47 main
+INFO  19:23:27,337 - #11 (
+INFO  19:23:27,337 - #6 )
+INFO  19:23:27,337 - #12 {
+INFO  19:23:27,337 - #47 b
+INFO  19:23:27,338 - #7 =
+INFO  19:23:27,338 - #46 43
+INFO  19:23:27,338 - #33 .
+ERROR 19:23:27,338 - 
+Sintaksna greska na liniji 9
+INFO  19:23:27,338 - #46 123
+INFO  19:23:27,338 - #33 .
+INFO  19:23:27,338 - #8 ;
+INFO  19:23:27,338 - #47 b
+INFO  19:23:27,338 - #7 =
+INFO  19:23:27,338 - #46 123
+ERROR 19:23:27,339 - Izvrsen oporavak do ; za dodelu vrednosti u liniji 9
+INFO  19:23:27,339 - #8 ;
+INFO  19:23:27,339 - #47 b
+INFO  19:23:27,339 - #7 =
+INFO  19:23:27,339 - #46 43
+INFO  19:23:27,339 - #33 .
+ERROR 19:23:27,339 - 
+Sintaksna greska na liniji 11
+INFO  19:23:27,340 - #46 123
+INFO  19:23:27,340 - #33 .
+INFO  19:23:27,340 - #8 ;
+INFO  19:23:27,340 - #10 if
+INFO  19:23:27,340 - #11 (
+INFO  19:23:27,340 - #47 a_
+ERROR 19:23:27,340 - Izvrsen oporavak do ; za dodelu vrednosti u liniji 11
+INFO  19:23:27,340 - #40 >
+INFO  19:23:27,340 - #47 b
+INFO  19:23:27,341 - #6 )
+INFO  19:23:27,341 - #12 {
+INFO  19:23:27,341 - #47 b
+INFO  19:23:27,341 - #7 =
+INFO  19:23:27,341 - #46 43
+INFO  19:23:27,341 - #33 .
+ERROR 19:23:27,341 - 
+Sintaksna greska na liniji 13
+INFO  19:23:27,341 - #46 123
+INFO  19:23:27,341 - #33 .
+INFO  19:23:27,341 - #8 ;
+INFO  19:23:27,341 - #5 }
+INFO  19:23:27,341 - #5 }
+INFO  19:23:27,342 - #5 }
+ERROR 19:23:27,342 - Izvrsen oporavak do ; za dodelu vrednosti u liniji 13
+INFO  19:23:27,345 - Program(
+  ProgName(
+   syntax_errors
+  ) [ProgName]
+  VarList(
+    VarList(
+      NoList(
+      ) [NoList]
+      GlobalVarDeclListDerived1(
+        Type(
+         int
+        ) [Type]
+        SingleVarGlobalDeclaration(
+          GlobalVarDeclSemiError(
+          ) [GlobalVarDeclSemiError]
+        ) [SingleVarGlobalDeclaration]
+      ) [GlobalVarDeclListDerived1]
+    ) [VarList]
+    GlobalVarDeclListDerived1(
+      Type(
+       int
+      ) [Type]
+      MultipleGlobalVarDeclarations(
+        GlobalVarDeclCommaError(
+        ) [GlobalVarDeclCommaError]
+        SingleVarGlobalDeclaration(
+          GlobalVarDeclSemi(
+            VarDecl(
+             b
+            ) [VarDecl]
+          ) [GlobalVarDeclSemi]
+        ) [SingleVarGlobalDeclaration]
+      ) [MultipleGlobalVarDeclarations]
+    ) [GlobalVarDeclListDerived1]
+  ) [VarList]
+  MethodDeclarationList(
+    MethodDeclarationList(
+      NoMethodDeclList(
+      ) [NoMethodDeclList]
+      MethodVoidDecl(
+        VoidTypeName(
+         a
+        ) [VoidTypeName]
+        FormPars(
+          MultipleFormalPars(
+            FormalParamCommaError(
+            ) [FormalParamCommaError]
+            SingleFormalPar(
+              FParamDecl(
+                Type(
+                 int
+                ) [Type]
+               b
+              ) [FParamDecl]
+            ) [SingleFormalPar]
+          ) [MultipleFormalPars]
+        ) [FormPars]
+        NoVarDeclLists(
+        ) [NoVarDeclLists]
+        NoStatements(
+        ) [NoStatements]
+      ) [MethodVoidDecl]
+    ) [MethodDeclarationList]
+    MethodVoidDecl(
+      VoidTypeName(
+       main
+      ) [VoidTypeName]
+      NoFormPars(
+      ) [NoFormPars]
+      NoVarDeclLists(
+      ) [NoVarDeclLists]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              NoStatements(
+              ) [NoStatements]
+              MatchedStatement(
+                DesignatorSt(
+                  DesignatorAssign(
+                    DesignatorIdent(
+                     b
+                    ) [DesignatorIdent]
+                    AssignopDerived1(
+                    ) [AssignopDerived1]
+                    DesignatorAssignError(
+                    ) [DesignatorAssignError]
+                  ) [DesignatorAssign]
+                ) [DesignatorSt]
+              ) [MatchedStatement]
+            ) [Statements]
+            MatchedStatement(
+              DesignatorSt(
+                DesignatorAssign(
+                  DesignatorIdent(
+                   b
+                  ) [DesignatorIdent]
+                  AssignopDerived1(
+                  ) [AssignopDerived1]
+                  DesignatorExprAndSemi(
+                    ExprPlus(
+                      TermListSingle(
+                        TermSingle(
+                          FactorNum(
+                           123
+                          ) [FactorNum]
+                        ) [TermSingle]
+                      ) [TermListSingle]
+                    ) [ExprPlus]
+                  ) [DesignatorExprAndSemi]
+                ) [DesignatorAssign]
+              ) [DesignatorSt]
+            ) [MatchedStatement]
+          ) [Statements]
+          MatchedStatement(
+            DesignatorSt(
+              DesignatorAssign(
+                DesignatorIdent(
+                 b
+                ) [DesignatorIdent]
+                AssignopDerived1(
+                ) [AssignopDerived1]
+                DesignatorAssignError(
+                ) [DesignatorAssignError]
+              ) [DesignatorAssign]
+            ) [DesignatorSt]
+          ) [MatchedStatement]
+        ) [Statements]
+        UnmatchedStatement(
+          IfUnmatched(
+            IfHelper(
+            ) [IfHelper]
+            ConditionIfParenCorrect(
+              ConditionSingle(
+                CondTermSingle(
+                  CondFactRelop(
+                    ExprPlus(
+                      TermListSingle(
+                        TermSingle(
+                          FactorDesignator(
+                            DesignatorIdent(
+                             a_
+                            ) [DesignatorIdent]
+                          ) [FactorDesignator]
+                        ) [TermSingle]
+                      ) [TermListSingle]
+                    ) [ExprPlus]
+                    RelopGT(
+                    ) [RelopGT]
+                    ExprPlus(
+                      TermListSingle(
+                        TermSingle(
+                          FactorDesignator(
+                            DesignatorIdent(
+                             b
+                            ) [DesignatorIdent]
+                          ) [FactorDesignator]
+                        ) [TermSingle]
+                      ) [TermListSingle]
+                    ) [ExprPlus]
+                  ) [CondFactRelop]
+                ) [CondTermSingle]
+              ) [ConditionSingle]
+            ) [ConditionIfParenCorrect]
+            MatchedStatement(
+              StatementListBraces(
+                Statements(
+                  NoStatements(
+                  ) [NoStatements]
+                  MatchedStatement(
+                    DesignatorSt(
+                      DesignatorAssign(
+                        DesignatorIdent(
+                         b
+                        ) [DesignatorIdent]
+                        AssignopDerived1(
+                        ) [AssignopDerived1]
+                        DesignatorAssignError(
+                        ) [DesignatorAssignError]
+                      ) [DesignatorAssign]
+                    ) [DesignatorSt]
+                  ) [MatchedStatement]
+                ) [Statements]
+              ) [StatementListBraces]
+            ) [MatchedStatement]
+          ) [IfUnmatched]
+        ) [UnmatchedStatement]
+      ) [Statements]
+    ) [MethodVoidDecl]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  19:23:27,345 - ===================================
+INFO  19:23:27,347 - Detektovan tip int na liniji 3
+INFO  19:23:27,348 - Detektovan tip int na liniji 4
+INFO  19:23:27,348 - Detektovan tip int na liniji 7
+ERROR 19:23:27,348 - Greska: u izrazu Designator = Expr Designator i Expr moraju biti kompatibilnih tipova  na liniji 9
+ERROR 19:23:27,348 - Greska: u izrazu Designator = Expr Designator i Expr moraju biti kompatibilnih tipova  na liniji 11
+ERROR 19:23:27,348 - Greska: a_ nije u tabeli simbola 
+ERROR 19:23:27,348 - Tipovi u CondFact = Expr Relop Expr moraju biti kompatibilni na liniji 12
+ERROR 19:23:27,348 - Greska: u izrazu Designator = Expr Designator i Expr moraju biti kompatibilnih tipova  na liniji 13
+ERROR 19:23:27,348 - Parsiranje NIJE uspesno zavrseno!
